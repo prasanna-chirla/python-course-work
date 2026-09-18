@@ -1,0 +1,53 @@
+OOPs (Object-Oriented Programming) is a programming approach where we organize a program using classes and objects.
+(To organize large programs,To reuse code,To make code easier to understand and maintain
+To provide data security using concepts like encapsulation,To reduce code duplication)
+1. Class
+A class is a blueprint used to create objects.
+2. Object
+An object is an instance of a class.
+3. Attributes
+Attributes are variables that store the data/state of an object.
+4. Methods
+Methods are functions defined inside a class that describe the behaviour of an object.
+5. Inheritance
+Inheritance means acquiring the properties and methods of one class into another class.
+The existing class is called the parent/base class.
+The new class is called the child/derived class.
+Types of Inheritance
+There are mainly 5 types you should know in Python.
+Single Inheritance,multilevel,multi,hybrid,Hierarchical
+6. Polymorphism
+Polymorphism means "many forms."
+The same method/function name can behave differently depending on the object.
+7. Abstraction
+Abstraction means hiding unnecessary implementation details and showing only the essential information to the user.
+8. Data Security – Encapsulation
+For data security, an important OOP concept is encapsulation.
+Encapsulation means wrapping data and methods together inside a class and controlling access to the data.
+--> pass → Empty Class
+pass is used when you want to create a class without writing anything inside it yet.
+Attributes:
+-->Class Attributes
+A class attribute is a variable defined inside the class but outside methods.
+-->Instance Attributes
+An instance attribute is a variable that belongs to a particular object.
+Different objects can have different values.
+-->self refers to the current object/instance that is calling the method.
+-->cls is used with a class method.(refers to current class)
+-->Method Types in Python OOPs
+There are 3 main types of methods:
+1. Instance Method
+Uses self
+Works with object data
+Most commonly used method
+2. Class Method
+Uses cls
+Works with class data
+Uses @classmethod
+3. Static Method
+Uses neither self nor cls
+Used for simple/general operations
+Uses @staticmethod
+Static = independent method
+Day-26
+constructor=In programming, a constructor is a special method that is automatically called when an object of a class is created.
