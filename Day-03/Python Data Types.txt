@@ -1,0 +1,100 @@
+Python Data Types
+
+1. Numeric Data Types
+
+int – Stores integer values (e.g., 10)
+
+float – Stores decimal values (e.g., 10.5)
+
+complex – Stores complex numbers (e.g., 2+3j)
+
+**2. Sequence Data Types**
+
+String (str)
+------------
+
+Collection of characters enclosed in single (' ') or double (" ") quotes.
+
+* Immutable
+* Ordered
+* Allows duplicates
+
+List (list)
+-----------
+
+Collection of elements enclosed in square brackets \[].
+
+* Mutable(change in same obj reference)
+* Dynamically sized
+* Allows duplicates
+* Heterogeneous
+* Ordered
+
+Tuple (tuple)
+-------------
+
+Collection of elements enclosed in parentheses ().
+
+* Immutable
+* Allows duplicates
+* Ordered
+* Fixed size
+* Heterogeneous
+
+**3. Mapping Data Type**
+
+Dictionary
+----------
+
+Collection of key-value pairs enclosed in curly braces {}.
+
+* Mutable
+* Ordered (Python 3.7+)
+* Dynamically sized
+* Heterogeneous
+* Keys must be unique
+
+Set
+---
+
+Collection of elements enclosed in curly braces {}.
+
+* Mutable
+* No duplicates
+* Dynamically sized
+* Heterogeneous
+* Unordered
+
+Frozen Set
+-----------
+
+Same as set, but:
+
+**Immutable**
+
+**Fixed size**
+
+**No duplicates**
+
+**Unordered**
+
+**4. Boolean Data Type (bool)**
+
+Used to represent logical values.
+
+Stores only:
+
+True
+
+False
+
+Used to check or compare conditions.
+
+**5. None Data Type**
+
+Represented by None.
+
+Used to indicate no value or an empty value/reference
+
+
+
