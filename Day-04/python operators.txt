@@ -1,0 +1,99 @@
+python operators
+1. Arithmetic Operators
+Operator	Description	Example
++	       Addition  	10 + 5 = 15
+-	Subtraction	        10 - 5 = 5
+*	Multiplication	       10 * 5 = 50
+/	Division	Gives decimal points also until remainder is zero (always returns a float)
+//	Floor Division	Gives int for int values and float for float values
+%	Modulus (Remainder)	10 % 4 = 2
+**	Power (Exponential function)	2 ** 3 = 8
+2. Comparison Operators
+
+Used to compare two values. The result is always True or False.
+
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+== (Equal to)
+!= (Not equal to)
+3. Assignment Operators
+
+Used to assign values and update variables.
+
++=
+-=
+*=
+/=
+//=
+%=
+**=
+
+Example:
+
+a = 10
+a += 5      # a = a + 5
+print(a)    # 15
+4. Relational / Logical Operators
+
+Used to combine or reverse conditions.
+
+and → Returns True if both conditions are True.
+or → Returns True if at least one condition is True.
+not → Reverses the result (True becomes False, False becomes True).
+5. Membership Operators
+
+Used to check whether a value is present or not.
+
+in
+not in
+
+Note:
+
+In lists, tuples, sets, and strings, it checks whether the value is present.
+In a dictionary, it checks only for the key, not the data (value).
+
+Example:
+
+d = {"id":101, "name":"Ram"}
+
+"id" in d        # True
+101 in d         # False
+6. Identity Operators
+
+Used to check whether two variables refer to the same object (same memory location).
+
+is
+is not
+7. Bitwise Operators
+
+Used to perform operations at the binary (bit) level.
+
+Operator	Description
+&	Bitwise AND → (1,1 = 1)
+`	`
+^	Bitwise XOR → (1,1 = 0, 0,0 = 0)
+~	Bitwise NOT (Complement)
+<<	Left Shift
+>>	Right Shift
+Left Shift (<<)
+<< 2 → Add 2 digits (0s) at the last in binary.
+Equivalent to multiplying by 2².
+
+Example:
+
+5 << 2
+# 5 = 101
+# 10100 = 20
+Right Shift (>>)
+>> 2 → Remove 2 digits from the last in binary.
+Equivalent to dividing by 2² (floor division).
+
+Example:
+
+20 >> 2
+# 20 = 10100
+# 101 = 5
+
+
