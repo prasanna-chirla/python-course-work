@@ -1,0 +1,69 @@
+function--function is block of reusable code used to perform specific task
+function properties
+-------------------
+1. Code Reusability
+Need: Write code once and use it many times.
+Example:
+Create a login() function and use it whenever a user needs to log in.
+------------
+2. Avoid Repetition
+Need: We don't have to write the same code again and again.
+Example:
+Create calculate_salary() once and use it for many employees.
+--------------
+3. Save Time
+Need: Functions save our coding time.
+Example:
+Create calculate_total() once and use it whenever we need to calculate a bill.
+------------
+4. Easy to Understand
+Need: Functions make code easier to understand.
+Example:
+calculate_tax() clearly tells us that the function calculates tax.
+-------------
+5. Easy Debugging
+Need: It is easier to find mistakes.
+Example:
+If the bill is wrong, we can check the calculate_bill() function.
+---------------
+6. Easy Maintenance
+Need: We can easily change the code.
+Example:
+If the tax rate changes, we only change the tax calculation in one function.
+------------
+7. Better Organization
+Need: Functions divide a big program into small parts.
+Example:
+An online shopping program can have:
+login()
+search_product()
+add_to_cart()
+make_payment()
+Each function does a different job.
+--------------
+
+8. Improve Readability
+Need: Functions make code easy to read.
+Example:
+send_email()
+We can easily understand what it does without reading all the email code.
+---------------
+9. Accept Different Inputs
+Need: One function can work with different values.
+Example:
+add(10, 20)
+add(100, 200)
+The same add() function works with different numbers.
+-----------------
+10. Build Large Applications
+Need: We can create a big application using many small functions.
+Example:
+A banking application can have:
+create_account()
+deposit()
+withdraw()
+check_balance()
+transfer_money()
+-----------------
+
+ARGUMENTS:::
