@@ -1,0 +1,50 @@
+Features of Python
+
+1. Easy to Learn
+2. High-Level Language
+3. Interpreted Language
+4. Dynamically Typed
+5. Less Code
+6. Large Library Support
+7. Versatile
+8. Cross-Platform
+9. Open Source
+10. Strong Community Support
+11. Supports Procedural and Object-Oriented Programming
+12. Extensible
+13. GUI Support
+14. Automatic Memory Management
+15. Used in AI and Machine Learning
+16. Multifunctional
+17. Security
+
+OOP's Concepts in Python
+
+1. Class
+A blueprint or template that contains attributes (variables) and methods (functions).
+Example: Student class with name and age as attributes, and display() as a method.
+
+2. Object
+An instance of a class that uses the class blueprint.
+Example: student1 = Student()
+
+3. Encapsulation
+Binding data (variables) and methods (functions) into a single unit (class) and providing security to the data.
+
+4. Inheritance
+Acquiring the properties and methods of a parent class into a child class.
+It helps in code reusability.
+
+5. Polymorphism
+Same action, different behavior.
+The same method behaves differently for different objects.
+
+6. Abstraction
+Hiding the implementation (complexity) and showing only the necessary information to the user.
+
+Class → Blueprint of an object.
+Object → Instance of a class.
+Encapsulation → Binding data and methods with data security.
+Inheritance → Parent class properties are acquired by the child class.
+Polymorphism → Same action, different behavior.
+Abstraction → Hide complexity, show only relevant information.
