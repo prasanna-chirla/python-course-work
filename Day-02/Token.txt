@@ -1,0 +1,70 @@
+Token
+A token is the smallest unit (part) of a Python program.
+Identifier
+Literal
+Keyword
+Operator
+Punctuation
+Statement
+A statement is a single instruction that Python executes.
+Example:
+x = 10
+print(x)
+Comment
+Comments are used to explain the code. Python ignores comments while executing the program.
+Single-line Comment: 
+Starts with #
+# This is a single-line comment
+Multi-line Comment:
+ Uses triple quotes ''' ''' or """ """
+'''
+This is a
+multi-line comment
+'''
+Identifier/variable:
+An identifier is the name given to a variable, function, class, etc.
+Rules:
+Can contain A–Z, a–z, 0–9, and _ (underscore).
+Cannot contain special characters like @, #, $, %, etc.
+Must start with a letter (A–Z or a–z) or _ (underscore).
+Cannot be a Python keyword (like if, for, while).
+Case-sensitive (name and Name are different).
+example:
+n=10
+if num % 2 == 0:
+    print("Even")  
+else:
+    print("Odd")
+
+Categories in this program
+Identifiers: num, print
+Keywords: if, else
+Operators: =, %, ==
+Literals: 10 (or input value), 2, 0, "Even", "Odd"
+Punctuation (Punctuators): :, (, )
+keywords::
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+False-Boolean value
+none-used to define empty block of code
+true-Boolean value
+and-operator checks only when two values are true
+as-alias name
+assert-error detection
+async, await-asynchronous operations at the time of data fetching in fast API
+break-to terminate a loop
+class-in object oriented programming to define a blueprint of a object we use class
+continue-skip the current iteration(jumping)
+def- to define a function
+del-to delete a value
+elif, else, if-conditional statement
+while, for-looping statement
+except, try, finally-exception handling to handle errors
+from-import statements
+global, nonlocal-function scope
+import-modules
+lambda-anonymous functions
+not-logical operator
+pass-there is nothing to write inside a function
+raise-raise an error explicitly
+with-file handling
+yield-generator concept
